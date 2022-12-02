@@ -16,7 +16,15 @@ namespace final_Prog_POE_ST10116392.Controllers
         {
             return View();
         }
-        public IActionResult signout()
+      
+        [HttpPost]
+        public IActionResult signup()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Login()
         {
             return View();
         }

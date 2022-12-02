@@ -19,7 +19,7 @@ namespace final_Prog_POE_ST10116392.Controllers
         public IActionResult Index()
         {
             
-            return View(Models.Modules);
+            return View();
         }
     }
 }
